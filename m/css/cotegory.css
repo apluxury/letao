@@ -1,0 +1,57 @@
+.my-content{
+    position: absolute;
+    left: 0;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.cotegory-left{
+    height: 100%;
+    width: 80px;
+    float: left;
+    position: relative;
+    
+}
+.cotegory-left .links{
+    background-color: #fff;
+}
+.cotegory-left .links a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+.cotegory-left .links .active {
+    background-color: #f5f5f5;
+    border-right: 1px solid transparent;
+}
+.cotegory-right{
+    height: 100%;
+    margin-left: 90px;
+    position: relative;
+   
+}
+.cotegory-right .brand-list{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.cotegory-right .brand-list li {
+    width: 33.333%;
+    float: left;
+}
+.cotegory-right .brand-list li a{
+    display: block;
+}
+.cotegory-right .brand-list li img{
+    width: 100%;
+}
+.cotegory-right .brand-list li p {
+    text-align: center;
+    font-size: 12px;
+}
