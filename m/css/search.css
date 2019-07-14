@@ -36,3 +36,22 @@
 .container .title{
 	padding-bottom:10px;
 }
+.mui-row{
+    margin: 10px;
+}
+.search-bar{
+	text-align:center;
+	/* width:92%; */
+	background:#efeff4;
+	padding:8px 0;
+    font-size:14px;
+	
+}
+
+#refresh{
+	position:absolute;
+	left:0;
+	width:100%;
+	top:44px;
+	bottom:50px;
+}

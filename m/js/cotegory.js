@@ -15,7 +15,7 @@ $(function () {
             // console.log(html);
             $('.links').html(html)
 
-
+            // 首次进入 加载第一行二级分类
             if (res.rows.length) {
                 let id = res.rows[0].id
                 $('.links').find('a').eq(0).addClass('active')

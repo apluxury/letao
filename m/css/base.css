@@ -20,7 +20,7 @@ ul {
 .my-header h1 {
     color: #fff;
 }
-.my-header .mui-icon-search{
+.my-header .mui-icon{
     color: #fff;
 }
 .my-footer {
@@ -82,7 +82,7 @@ ul {
 .product ul li a {
     display: block;
     box-shadow: 0 0 5px #ccc; 
-    padding:0 5px;
+    padding:5px;
 }
 .product ul li img {
     width: 100%;
