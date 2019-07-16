@@ -27,10 +27,7 @@ $(function () {
                 setTimeout(function () {
                     location.href = "user.html"
                 }, 2000)
-
-
             }
         })
     })
-
 })

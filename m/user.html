@@ -51,15 +51,7 @@
     </nav>
     <div class="mui-content">
         <ul class="mui-table-view" id="userInfoBox">
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;">
-                    <img class="mui-media-object mui-pull-left" src="images/user.jpg">
-                    <div class="mui-media-body">
-                        <%=mobile %>
-                        <p class='mui-ellipsis'>账号:<%=username %></p>
-                    </div>
-                </a>
-            </li>
+
         </ul>
         <ul class="mui-table-view">
             <li class="mui-table-view-cell">
@@ -69,13 +61,24 @@
                 <a class="mui-navigate-right">我的购物车</a>
             </li>
             <li class="mui-table-view-cell">
-                <a class="mui-navigate-right">收货地址管理</a>
+                <a class="mui-navigate-right" href="address.html">收货地址管理</a>
             </li>
             <li class="mui-table-view-cell">
                 <a class="mui-text-center" id="logout">退出登录</a>
             </li>
         </ul>
     </div>
+    <script type="text/template" id='userTpl'>
+         <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;">
+                    <img class="mui-media-object mui-pull-left" src="images/user.jpg">
+                    <div class="mui-media-body">
+                        <%=mobile %>
+                        <p class='mui-ellipsis'>账号:<%=username %></p>
+                    </div>
+                </a>
+            </li>
+    </script>
 </body>
 
 </html>
